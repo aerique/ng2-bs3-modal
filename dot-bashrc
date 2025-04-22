@@ -1,0 +1,8 @@
+# .bashrc
+
+# Environment Variables
+PS1="\u@\h:\w\$ "
+PATH=$PATH:$HOME/.local/bin
+
+# Aliases
+alias l="ls -l"

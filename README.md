@@ -1,8 +1,27 @@
 # ng2-bs3-modal [![npm version](https://badge.fury.io/js/ng2-bs3-modal.svg)](http://badge.fury.io/js/ng2-bs3-modal) [![npm downloads](https://img.shields.io/npm/dm/ng2-bs3-modal.svg)](https://npmjs.org/ng2-bs3-modal) [![Build Status](https://travis-ci.org/dougludlow/ng2-bs3-modal.svg?branch=master)](https://travis-ci.org/dougludlow/ng2-bs3-modal)
+
 Angular (2+) Bootstrap 3 Modal Component
 
+## README FORK
+
+*This fork is unmaintained.*
+
+It has been put online because it might be useful for others. (In my case I chose to update my other dependencies first before leaving Bootstrap 3 behind.)
+
+This fork updates `ng2-bs3-modal` for Angular versions above 12 because those Angular versions cannot work with the package format as they are currently on NPM.
+
+### Usage
+
+Check the Git version tags for the Angular version you need. They're `0.15.$ANGULAR_VERSION` so, for example, `git checkout 0.15.13` for Angular 13.
+
+- `docker build -f Dockerfile -t ng2-bs3-modal .`
+- `docker run -it ng2-bs3-modal`
+- copy the archive out of the container
+- `yarn add ./ng2-bs3-modal.tar.gz`
+
 ## Demo
-http://dougludlow.github.io/ng2-bs3-modal/
+
+http://dougludlow.github.io/ng2-bs3-modal/ (defunct)
 
 ## Dependencies
 

@@ -2,7 +2,7 @@
  * Public API Surface of ng2-bs3-modal
  */
 
-export * from './modal/modal.service';
+export * from './autofocus/autofocus.directive';
 export * from './modal/modal.component';
 export * from './modal/header.component';
 export * from './modal/body.component';

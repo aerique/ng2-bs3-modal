@@ -128,7 +128,7 @@
             "prefix": "lib",
             "architect": {
                 "build": {
-                    "builder": "@angular-devkit/build-ng-packagr:build",
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
                     "options": {
                         "tsConfig": "projects/ng2-bs3-modal/tsconfig.lib.json",
                         "project": "projects/ng2-bs3-modal/ng-package.json"
